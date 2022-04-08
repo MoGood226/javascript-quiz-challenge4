@@ -1,5 +1,46 @@
-.start {
+:root {
+    --first-color: purple;
+    --second-color: rgb(161, 96, 199);
+}
 
+/* Header starts here */
+
+header h2 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ff8193;
+}
+
+/* Header ends */
+
+/* Start screen starts here */
+.start h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.start p {
+    font-size: 23px;
+    text-align: center;
+    width: 88%;
+    margin: 0 auto;
+}
+
+.start button {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+/* Start screen ends here */
+
+.start {
+    
 }
 
 .questions {

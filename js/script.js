@@ -1,42 +1,43 @@
 var startContainer = document.getElementById("start-container");
 var questionContainer = document.getElementById("question-container");
 var startBtn = document.getElementById("start-btn");
+var highScoreForm = document.getElementById("high-score-form");
+var highScoreView = document.getElementById("high-score-view");
 var questionNumber = 0;
-// finish adding variables with id's
 
-// create an array of question objects
+// an array of question objects
 var questions = [
     {
-        question: "",
-        answer1: "",
-        answer2: "",
-        answer3: "",
-        answer4: "",
-        correct: ""
+        question: "What does null mean?",
+        answer1: "a variable",
+        answer2: "An absence of value",
+        answer3: "An abundance of numbers",
+        answer4: "A string",
+        correct: "An absence of value"
     },
     {
-        question: "",
-        answer1: "",
-        answer2: "",
-        answer3: "",
-        answer4: "",
-        correct: ""
+        question: "Javascript is an _______ language?",
+        answer1: "Object-Oriented",
+        answer2: "Object-Based",
+        answer3: "Procedural",
+        answer4: "None of the above",
+        correct: "Object-Oriented"
     },
     {
-        question: "",
-        answer1: "",
-        answer2: "",
-        answer3: "",
-        answer4: "",
-        correct: ""
+        question: "Which of these keywords is used to define a variable in Javascript?",
+        answer1: "var",
+        answer2: "let",
+        answer3: "Both A & B",
+        answer4: "None of the above",
+        correct: "Both A & B"
     },
     {
-        question: "",
-        answer1: "",
-        answer2: "",
-        answer3: "",
-        answer4: "",
-        correct: ""
+        question: "What is a method?",
+        answer1: "A function that belongs to an object",
+        answer2: "An object that belongs to a function",
+        answer3: "A series of strings",
+        answer4: "Refers to the number 9",
+        correct: "A function that belongs to an object"
     }
 ]
 
