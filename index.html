@@ -12,7 +12,7 @@
 <body>
     <header>
         <h2>
-            <a href="#high-score">View High Scores</a>
+            <a href="#high-score-view">View High Scores</a>
         </h2>
 
         <p id="timer"></p>
@@ -29,14 +29,18 @@
 
     <section id="question-container" class="questions">
         <h3 id="question"></h3>
-        <button id="answer1"></button>
-        <button id="answer2"></button>
-        <button id="answer3"></button>
-        <button id="answer4"></button>
+        <button id="answer1" class="answer-btn"></button>
+        <button id="answer2" class="answer-btn"></button>
+        <button id="answer3" class="answer-btn"></button>
+        <button id="answer4" class="answer-btn"></button>
     </section>
 
     <section id="high-score-form" class="score-form">
-
+        <h1>End of quiz!!!</h1>
+        <form action="submit">
+            <input id="initials" type="text">
+            <button id="high-score-btn">Submit</button>
+        </form>
     </section>
 
     <section id="high-score-view" class="score-view">
