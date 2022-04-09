@@ -20,4 +20,4 @@
 - The Ta's of my class in office hours.
 - Gif from the challenge assignment page on Canvas https://courses.bootcampspot.com/courses/1229/files/1441364/preview
 - InterviewBit https://www.interviewbit.com/javascript-mcq/
-- 
+- https://stackoverflow.com/questions/29370017/adding-a-high-score-to-local-storage

@@ -32,25 +32,38 @@ header h2 a {
 .start button {
     margin: 0;
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 /* Start screen ends here */
 
-.start {
-    
-}
-
+/* Questions start here*/
 .questions {
     display: none;
 }
 
+.questions h3 {
+    font-size: 40px;
+}
+
+
+/*Questions end here */
+
+/*Score form starts*/
 .score-form {
     display: none;
 }
+.score-form h1 {
+    font-size: 40px;
+}
 
+/*Score form ends here*/
+
+/*score view starts here*/
 .score-view {
     display: none;
 }
+
+/* score view ends here */
